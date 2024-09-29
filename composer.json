@@ -1,0 +1,25 @@
+{
+	"name":        "ihor-sudoma-dev/vodafone-nz-rest-api-client",
+	"description": "Vodafone NZ REST API Client",
+	"license":     "proprietary",
+	"authors":     [
+		{
+			"name":  "Ihor Sudoma",
+			"email": "ihor.s@droam.com"
+		}
+	],
+	"version":     "1.0.4",
+	"require":     {
+		"php":               ">=7.4|^8.1",
+		"ext-json":          "*",
+		"guzzlehttp/guzzle": "^7.0",
+		"nesbot/carbon":     "^2.72"
+	},
+	"autoload":    {
+		"psr-4": {
+			"VodafoneNZRestApiClient\\": "src/"
+		},
+		"files": [
+		]
+	}
+}
